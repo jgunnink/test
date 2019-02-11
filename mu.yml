@@ -1,6 +1,9 @@
 environments:
 - name: acceptance
+  provider: ecs-fargate # Using Fargate as our platform. Optionally could be ECS
 - name: production
+  provider: ecs-fargate # Using Fargate as our platform. Optionally could be ECS
+
 service:
   name: extension
   healthEndpoint: /

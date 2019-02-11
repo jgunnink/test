@@ -1,8 +1,8 @@
 environments:
 - name: acceptance
-  provider: ecs-fargate # Using Fargate as our platform. Optionally could be ECS
+  provider: eks
 - name: production
-  provider: ecs-fargate # Using Fargate as our platform. Optionally could be ECS
+  provider: ecs-fargate
 
 service:
   name: extension

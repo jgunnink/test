@@ -1,8 +1,8 @@
 environments:
 - name: acceptance
-  provider: eks
+  provider: ecs
 - name: production
-  provider: ecs-fargate
+  provider: ecs
 
 service:
   name: extension
